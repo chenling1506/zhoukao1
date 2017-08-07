@@ -5,6 +5,9 @@
 	height: 100%;
 	overflow: hidden;
 }
+*{
+	box-sizing:border-box;
+}
 body,html{
 	@extend %full;
 	font-family: "微软雅黑";
@@ -133,12 +136,12 @@ body{
 	.bao{
 		position: absolute;
 		width: 100px;
-		height: 30px;
+		height: 28px;
 		background: #7FDD81;
-		line-height: 30px;
+		line-height: 36px;
 		text-align: center;
 		color:#fff;
-		transform: rotate(-45deg) translate(-24px,-27px);
+		transform: rotate(-45deg) translate(-24px,-30px);
 		left:0;
 		top:0;
 	}
@@ -151,6 +154,19 @@ body{
 			font-size: .3rem;
 			padding:0 3px;
 		}
+	}
+	.you{
+		position: absolute;
+		width: .7rem;
+		height: .38rem;
+		border-radius:10px;
+		border:1px solid #5CC65F;
+		color:#5CC65F;
+		right:5px;
+		top:5px;
+		font-size: .2rem;
+		line-height: .38rem;
+		text-align: center;
 	}
 	ol{
 		width: 100%;
